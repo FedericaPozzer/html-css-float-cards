@@ -21,5 +21,44 @@ img {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    width: 1200px;
+    font-family: 'Fredoka', sans-serif;
+
+    background-color: green;
+}
+
+/* Header */
+
+.main-header {
+    height: 130px;
+    font-family: 'Fredoka One';
+    line-height: 130px;
+    text-align: center;
+    
+
+    background-color: blueviolet;
+}
+
+/* Main - <p> */
+
+.team-presentation {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Main - Columns */
+
+.row {
+    /* margin: auto; */
+    
+
+}
+
+.column {
+    width: calc(100% /3);
+    background-color: palevioletred;
+    float: left;
+
+    border: 1px solid black;
+    
 }
