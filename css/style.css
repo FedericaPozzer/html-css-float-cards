@@ -7,7 +7,8 @@
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 100px;
 }
 
 
@@ -27,11 +28,17 @@ img {
     background-color: green;
 }
 
+:root {
+    --bold-fredoka: 'Fredoka One';
+    --normal-fredoka: 'Fredoka', sans-serif;
+}
+
 /* Header */
 
 .main-header {
     height: 130px;
     font-family: 'Fredoka One';
+    color: #e53170;
     line-height: 130px;
     text-align: center;
     
@@ -50,15 +57,19 @@ img {
 
 .row {
     /* margin: auto; */
-    
 
 }
 
 .column {
     width: calc(100% /3);
+    padding: 10px;
+    /* margin: 20px; */
     background-color: palevioletred;
     float: left;
 
     border: 1px solid black;
     
+}
+.img, .description {
+    float: left;
 }
